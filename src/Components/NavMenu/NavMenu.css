@@ -1,3 +1,6 @@
+.Nav-container{
+    background-color: black;
+}
 .logo-img{
     padding-top: 10px;
 }
@@ -6,7 +9,7 @@
     margin-right: 30px;
     font-size: 22px;
     font-weight: 500;
-    color: rgb(218, 214, 214);
+    color: white;
     cursor: pointer;
     padding: 5px;
     padding-top: 10px;

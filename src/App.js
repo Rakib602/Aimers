@@ -7,6 +7,7 @@ import Details from './Components/Details/Details';
 import Blog from './Components/Blog/Blog';
 import About from './Components/About/About';
 import Error from './Components/Error/Error';
+import Services from './Components/Services/Services';
 
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/details/:teamId">
-              <Details></Details>
+            <Route path="/services">
+              <Services></Services>
             </Route>
             <Route path="/blog">
               <Blog></Blog>

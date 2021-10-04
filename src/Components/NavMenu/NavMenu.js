@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import "./NavMenu.css";
 const NavMenu = () => {
     return (
-        <div className="NavMenu-container">
-            <div className="container">
+        <div className="container">
+            <div className="Nav-container">
         <div className="row">
           <div className="col-md-2">
             <div className="logo-img">
