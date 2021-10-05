@@ -1,4 +1,5 @@
 import React from 'react';
+import Course from '../Course/Course';
 import Header from '../Header/Header';
 
 const Home = () => {
@@ -6,9 +7,11 @@ const Home = () => {
         <div className="container">
            <Header></Header>
            <div>
-               <h1>this is demo</h1>
+               <Course></Course>
            </div>
-           
+           <div>
+               
+           </div>
         </div>
     );
 };

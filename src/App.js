@@ -7,9 +7,8 @@ import About from './Components/About/About';
 import Error from './Components/Error/Error';
 import NavMenu from './Components/NavMenu/NavMenu';
 import Footer from './Components/Footer/Footer';
-import Courses from './Components/Courses/Courses';
 import Blogs from './Components/Blogs/Blogs';
-
+import Courses from './Components/Courses/Courses';
 
 function App() {
 
