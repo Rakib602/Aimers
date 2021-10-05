@@ -4,11 +4,11 @@ import"./Header.css";
 import model from "../../images/model.png"
 const Header = () => {
     return (
-        <div className="container">
+        <div>
             <div className="Header-container">
         <div className="row d-flex align-items-center justify-content-center">
-          <NavMenu></NavMenu>
-          <div className="col-md-6">
+         
+          <div className="col-md-6 col-sm-12">
             <h1 className="title">
               BE PASSIONATE   <br /> TO LEARN SOMETHING
             </h1>
@@ -17,7 +17,7 @@ const Header = () => {
             </p>
             
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
           <img className="w-75 pb-5" src={model} alt=""/>
           </div>
         </div>

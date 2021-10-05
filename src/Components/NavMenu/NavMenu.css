@@ -1,19 +1,13 @@
-.Nav-container{
-    background-color: black;
+.navStyle{
+  background-color: black;
 }
-.logo-img{
-    padding-top: 10px;
-}
-.items {
-    list-style: none;
-    margin-right: 30px;
-    font-size: 22px;
-    font-weight: 500;
-    color: white;
-    cursor: pointer;
-    padding: 5px;
-    padding-top: 10px;
-    text-decoration: none;
+.items{
+  font-size: 22px;
+  font-weight: 500;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
   }
   .items:hover {
     color: rgb(221, 5, 5);

@@ -3,10 +3,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Components/Home/Home';
-import Blog from './Components/Blog/Blog';
 import About from './Components/About/About';
 import Error from './Components/Error/Error';
-import Services from './Components/Services/Services';
+import NavMenu from './Components/NavMenu/NavMenu';
+import Footer from './Components/Footer/Footer';
+import Courses from './Components/Courses/Courses';
+import Blogs from './Components/Blogs/Blogs';
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <NavMenu></NavMenu>
           <Switch>
             <Route exact path="/">
               <Home></Home>
@@ -21,11 +24,11 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/services">
-              <Services></Services>
+            <Route path="/courses">
+              <Courses></Courses>
             </Route>
-            <Route path="/blog">
-              <Blog></Blog>
+            <Route path="/blogs">
+              <Blogs></Blogs>
             </Route>
             <Route path="/about">
               <About></About>
@@ -34,6 +37,7 @@ function App() {
               <Error></Error>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
     </div>
   );

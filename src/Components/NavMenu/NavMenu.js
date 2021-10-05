@@ -1,38 +1,25 @@
 import React from 'react';
 import logo from "../../images/Logo.png";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import "./NavMenu.css";
+import { Container, Nav, Navbar } from 'react-bootstrap';
 const NavMenu = () => {
     return (
         <div className="container">
-            <div className="Nav-container">
-        <div className="row">
-          <div className="col-md-2">
-            <div className="logo-img">
-              <img className="w-75" src={logo} alt="" />
-            </div>
-          </div>
-          <div className="col-md-10">
-            <div className="menu-container ">
-              <ul className="d-flex align-items-end justify-content-end">
-                <Link to="/home" className="items">
-                  <li>Home</li>
-                </Link>
-                <Link to="/services" className="items">
-                  <li>Services</li>
-                </Link>
-                <Link to="blog" className="items">
-                  <li>Blog</li>
-                </Link>
-                <Link to="/about" className="items">
-                  <li>About us</li>
-                </Link>
-                
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+          <Navbar className="navStyle" expand="lg" variant="dark">
+            <Container fluid>
+              <NavLink to ="/home"><img className="w-50" src={logo} alt="" /></NavLink>
+              <Navbar.Toggle aria-controls="navbarScroll" />
+              <Navbar.Collapse id="navbarScroll">
+                <Nav>
+                  <NavLink className="items" to="/home">Home</NavLink>
+                  <NavLink className="items" to="/courses">Courses</NavLink>
+                  <NavLink className="items" to="/blogs">Blogs</NavLink>
+                  <NavLink className="items" to="/about">About Us</NavLink>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
     </div>
     );
 };
