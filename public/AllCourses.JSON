@@ -15,7 +15,7 @@
     },
     {
         "id": 3,
-        "name": " Basic Java Programming Course ",
+        "name": " Basic Java Programming Course For Beginner ",
         "instructor": " Nick Mitchell " ,
         "img": " https://5.imimg.com/data5/HT/UF/MY-9232477/java-training-courses-500x500.jpg ",
         "enroll": 3000
@@ -50,7 +50,7 @@
     },
     {
         "id": 8,
-        "name": " Grapihc Designing Course ",
+        "name": " Grapihc Designing Course For Beginner ",
         "instructor":" Mitchell Henry ",
         "img": " https://knovatek.com/wp-content/uploads/2019/08/GRAPHIC-DESIGN.png ",
         "enroll": 4000
@@ -64,7 +64,7 @@
     },
     {
         "id": 10,
-        "name": " PSEO Traning Course For Beginner",
+        "name": " SEO Traning Course",
         "instructor": " Mark kaddus ",
         "img": " https://academy.hubspot.com/hubfs/hero1x_hero.jpg",
         "enroll": 4500
