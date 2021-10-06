@@ -1,23 +1,27 @@
-import React, { useEffect, useState } from 'react';
-import SingleCourse from '../SingleCourse/SingleCourse';
-const AllCourses = () => {
-    const [courses, setCourses] = useState([])
+import React from 'react';
+import { Card, CardGroup} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-    useEffect(() => {
-        fetch('./AllCourses.JSON')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
+const AllCourses = (props) => {
+    const {name,instructor,img,enroll} = props.courses;
     return (
-            <div className="home-container">
-                <div className="courses">
-                    {
-                        courses.map(course => <SingleCourse
-                             key={course.name} 
-                             course={course}>
-                             </SingleCourse>)
-                    }
-                </div>
+        <div >
+           <CardGroup>
+                <Card>
+                    <Card.Img className="mx-auto courseImg" src={img} />
+                    <Card.Body>
+                        <Card.Title> {name} </Card.Title>
+                        <Card.Text>Instructor :{instructor}</Card.Text>
+                        <Card.Text>Enroll Fee: ${enroll}</Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <Link to = "/courses">
+                        <button className="btn">Enroll Now</button>
+                        </Link>
+                        
+                    </Card.Footer>
+                </Card>
+            </CardGroup>
         </div>
     );
 };

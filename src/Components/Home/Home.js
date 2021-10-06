@@ -1,6 +1,7 @@
 import React from 'react';
 import Course from '../Course/Course';
 import Header from '../Header/Header';
+import SingleCourse from '../SingleCourse/SingleCourse';
 
 const Home = () => {
     return (
@@ -10,7 +11,6 @@ const Home = () => {
                <Course></Course>
            </div>
            <div>
-               
            </div>
         </div>
     );

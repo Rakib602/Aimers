@@ -9,7 +9,7 @@ const TopCourse = (props) => {
         <div >
             <CardGroup >
                 <Card >
-                    <Card.Img className="mx-auto" src={img} />
+                    <Card.Img className="mx-auto courseImg" src={img} />
                     <Card.Body>
                         <Card.Title> {name} </Card.Title>
                         <Card.Text>Instructor :{instructor}</Card.Text>

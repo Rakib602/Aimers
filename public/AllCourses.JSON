@@ -26,5 +26,61 @@
         "instructor":" Mitchell Henry ",
         "img": " https://www.fossmint.com/wp-content/uploads/2019/02/Udemy-Python-Learning-Courses-for-Beginners.png ",
         "enroll": 4000
+    },
+    {   
+        "id": 5,
+        "name": " C++ Online Course For Beginner ",
+        "instructor": " Tomas Henry ",
+        "img": " https://blog.codingblocks.com/content/images/size/w2000/2019/07/COVER.jpg ",
+        "enroll": 4000
+    },
+    {
+        "id": 6,
+        "name": " Android Development Course",
+        "instructor": " Mark Mitchell ",
+        "img": " https://i1.wp.com/elysiumacademy.org/wp-content/uploads/2018/12/Android.jpg",
+        "enroll": 3500
+    },
+    {
+        "id": 7,
+        "name": " Cyber Sequrity Course For Beginner",
+        "instructor": " Nick Karlos " ,
+        "img": " https://i.ytimg.com/vi/nzZkKoREEGo/maxresdefault.jpg ",
+        "enroll": 5000
+    },
+    {
+        "id": 8,
+        "name": " Grapihc Designing Course ",
+        "instructor":" Mitchell Henry ",
+        "img": " https://knovatek.com/wp-content/uploads/2019/08/GRAPHIC-DESIGN.png ",
+        "enroll": 4000
+    },
+    {   
+        "id": 9,
+        "name": " Competitive Programming Course ",
+        "instructor": " Marshal Kallis ",
+        "img": " https://blog.codingblocks.com/content/images/size/w2000/2019/07/BLOG_COVER-copy.jpg",
+        "enroll": 4500
+    },
+    {
+        "id": 10,
+        "name": " PSEO Traning Course For Beginner",
+        "instructor": " Mark kaddus ",
+        "img": " https://academy.hubspot.com/hubfs/hero1x_hero.jpg",
+        "enroll": 4500
+    },
+    {
+        "id": 11,
+        "name": " Affiliate Marketing Course ",
+        "instructor": " Mitchell Starc" ,
+        "img": " https://i.imgur.com/z2T1J31.jpeg ",
+        "enroll": 3500
+    },
+    {
+        "id": 12,
+        "name": " Artificial Intelligence Course ",
+        "instructor":" Mitchell Henry ",
+        "img": " https://cybersquare.org/wp-content/uploads/2020/11/Artificial-Intelligence__.jpg ",
+        "enroll": 5000
     }
 ]

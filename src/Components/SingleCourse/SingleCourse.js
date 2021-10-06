@@ -1,24 +1,22 @@
-import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import AllCourses from '../AllCourses/AllCourses';
 
-const SingleCourse = (props) => {
-    const { name, img, instructor, enroll } = props.course;
+const SingleCourse = () => {
+    const [courses,setCourses] = useState([]);
+    useEffect(()=>{
+        fetch('./AllCourses.JSON')
+        .then(res=>res.json())
+        .then(data=>setCourses(data));
+
+    },[])
     return (
-        <div>
-        <CardGroup>
-
-            <Card className="card">
-                <Card.Img className="img mx-auto" src={img} />
-            <Card.Body>
-                 <Card.Title> {name} </Card.Title>
-                 <Card.Text>Instructor :{instructor}</Card.Text>
-                     <Card.Text>Enroll Fee: ${enroll}</Card.Text>
-            </Card.Body>
-        <   Card.Footer>
-                <button>Enroll Now</button>
-            </Card.Footer>
-    </Card>
-    </CardGroup>
+        <div className="cardStyle">
+            {
+               courses.map(courses =><AllCourses
+                key={courses.id}
+                courses={courses}
+               ></AllCourses>) 
+            }
         </div>
     );
 };
