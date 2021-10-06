@@ -11,7 +11,7 @@ const Course = () => {
     return (
         <div className="card">
             <h3>Top Courses</h3>
-            <div className="cardStyle">
+            <div className="cardDesign">
             {
                 course.map(course => <TopCourse
                 key={course.id}

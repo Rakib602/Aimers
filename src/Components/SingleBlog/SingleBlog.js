@@ -9,7 +9,7 @@ const SingleBlog = () => {
         .then(data=>setPost(data));
     },[])
     return (
-        <div className="cardStyle">
+        <div className="blogStyle">
             
             {
                 post.map(post=> <AllBlog
