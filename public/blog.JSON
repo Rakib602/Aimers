@@ -1,0 +1,26 @@
+[
+    {
+	"id": 1,
+        "Title": " How to become a programmer? ",
+        "img": " https://i.ytimg.com/vi/fpV1LTbavKk/sddefault.jpg",
+        "Post": "Programmers are, in a sense, digital architects who dedicate their careers to designing the tech features and functionalities we all take for granted. It’s a fantastic profession, and if you’ve ever found yourself thinking about the cogs behind the internet’s not-so-metaphorical machine, you’ve probably wondered how to become a programmer."
+    },
+    {
+	"id": 2,
+        "Title": " How Programming Languages are Changing the World? ",
+        "img": " https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210731085719/How-Programming-Languages-are-Changing-the-World.png",
+        "Post": "Programming has been revolutionizing the world since the advent of the first software or a code-based project. Programming or coding has opened numerous new ways and paved the way for innovation in almost every industry. Today, with various types of coding languages available and modern tech-powered tools to assist, something new and innovative is always around the corner."
+    },
+    {
+	"id": 3,
+        "Title": " A complete guide to becoming an ethical hacker. ",
+        "img": " https://i.ytimg.com/vi/MspUTBYKrkM/maxresdefault.jpg",
+        "Post": "This guide is all about how to become an ethical hacker. It includes detailed information on the role an ethical hacker plays, some of the skills and experience necessary to become an ethical hacker, and strategies for landing a job as an ethical hacker. "
+    },
+    {
+	"id": 4,
+        "Title": " Become Android Developer – A Complete Roadmap ",
+        "img": " https://i.ytimg.com/vi/fpV1LTbavKk/sddefault.jpg",
+        "Post": "Android is an open-source operating system, based on the Linux kernel and used in mobile devices like smartphones, tablets, etc. Further, it was developed for smartwatches and Android TV. Each of them has a specialized interface. Android has been one of the best-selling OS for smartphones. Android OS was developed by Android Inc. which Google bought in 2005. Various applications like games, music player, camera, etc. are built for these smartphones for running on Android. Google Play Store features quite 3.3 million apps. Today, Android remains dominant on a global scale."
+   }
+]

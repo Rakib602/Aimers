@@ -1,4 +1,5 @@
 import React from 'react';
+import './AllCourses.css'
 import { Card, CardGroup} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
